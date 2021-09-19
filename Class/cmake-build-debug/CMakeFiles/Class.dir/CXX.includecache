@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/ITS/Class/Counter.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class/Group.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class/main.cpp
+Counter.h
+/Users/Danik/CLionProjects/ITS/Class/Counter.h
+Group.h
+/Users/Danik/CLionProjects/ITS/Class/Group.h
+

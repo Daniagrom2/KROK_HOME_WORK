@@ -1,0 +1,3 @@
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/cmake-build-debug/CMakeFiles/012____.dir

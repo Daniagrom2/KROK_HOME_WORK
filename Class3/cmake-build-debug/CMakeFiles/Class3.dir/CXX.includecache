@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/ITS/Class3/Point.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class3/Triangle.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class3/main.cpp
+Point.h
+/Users/Danik/CLionProjects/ITS/Class3/Point.h
+Triangle.h
+/Users/Danik/CLionProjects/ITS/Class3/Triangle.h
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/ITS/Class2/Complex.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class2/ModelWindow .h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class2/Vector3D.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class2/main.cpp
+iostream
+-
+Complex.h
+/Users/Danik/CLionProjects/ITS/Class2/Complex.h
+Vector3D.h
+/Users/Danik/CLionProjects/ITS/Class2/Vector3D.h
+ModelWindow .h
+/Users/Danik/CLionProjects/ITS/Class2/ModelWindow .h
+

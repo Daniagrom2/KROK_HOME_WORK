@@ -1,0 +1,3 @@
+/Users/Danik/CLionProjects/ITS/ПВ011_ExamProject_Kolodii/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Danik/CLionProjects/ITS/ПВ011_ExamProject_Kolodii/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Danik/CLionProjects/ITS/ПВ011_ExamProject_Kolodii/cmake-build-debug/CMakeFiles/011_ExamProject_Kolodii.dir

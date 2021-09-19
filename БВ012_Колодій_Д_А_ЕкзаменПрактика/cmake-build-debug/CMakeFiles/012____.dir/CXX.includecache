@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Book.cpp
+Book.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Book.h
+
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Book.h
+iostream
+-
+Reader.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Reader.h
+
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Reader.cpp
+Book.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Book.h
+Reader.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Reader.h
+
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Reader.h
+Book.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Book.h
+
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/main.cpp
+Book.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Book.h
+Reader.h
+/Users/Danik/CLionProjects/ITS/БВ012_Колодій_Д_А_ЕкзаменПрактика/Reader.h
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/ITS/Class8/Matrix.h
+iostream
+-
+
+/Users/Danik/CLionProjects/ITS/Class8/main.cpp
+Matrix.h
+/Users/Danik/CLionProjects/ITS/Class8/Matrix.h
+

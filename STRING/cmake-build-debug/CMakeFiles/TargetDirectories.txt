@@ -1,0 +1,3 @@
+/Users/Danik/CLionProjects/ITS/STRING/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Danik/CLionProjects/ITS/STRING/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Danik/CLionProjects/ITS/STRING/cmake-build-debug/CMakeFiles/STRING.dir

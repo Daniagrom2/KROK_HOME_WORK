@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Danik/CLionProjects/ITS/dZ_AUTOSALON/Header.h
+iostream
+-
+cstring
+-
+
+/Users/Danik/CLionProjects/ITS/dZ_AUTOSALON/main.cpp
+Header.h
+/Users/Danik/CLionProjects/ITS/dZ_AUTOSALON/Header.h
+
