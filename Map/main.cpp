@@ -1,8 +1,12 @@
 #include <iostream>
 #include <map>
+#include <ostream>
+#include <fstream>
 using namespace std;
 class Dictionary{
 public:
+    void save_to_file(string path);
+    void download_from_file(string path);
     void add_by_hand();
     void remove_word(string);
     void editing();
@@ -19,9 +23,6 @@ private:
 
 
 int main() {
-Dictionary a;
-a.add_word("Hello","Privet");
-a.searching();
     return 0;
 }
 void Dictionary::add_word(string key, string value) {
@@ -73,4 +74,37 @@ void Dictionary::searching() {
         if(i.first == key)
             cout<<i.first<<" -->"<<i.second<<endl;
     }
+}
+void Dictionary::save_to_file(string path){
+    ofstream f;
+    f.open(path,ofstream::app);
+    if(f.is_open()){
+        for (auto i:dictionary) {
+            f<<i.first<< '\n';
+            f<<i.second<< '\n';
+        }
+    }else{
+        cout<<"Can^t open stream!!"<<endl;
+    }
+    f.close();
+}
+void Dictionary::download_from_file(string path){
+    ifstream f;
+    f.open(path);
+    if(f.is_open()){
+        string key;
+        string value;
+        for (auto i:dictionary) {
+            getline(f,key);
+            if(key != "") {
+                getline(f,value);
+                add_word(key,value);
+            }
+            }
+        }
+else{
+        cout<<"Can^t open stream!!"<<endl;
+    }
+
+    f.close();
 }
