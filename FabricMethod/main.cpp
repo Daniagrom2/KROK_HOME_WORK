@@ -42,5 +42,6 @@ int main() {
     p->creating();
     delete d;
     delete p;
+
     return 0;
 }
