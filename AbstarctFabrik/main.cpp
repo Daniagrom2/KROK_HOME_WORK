@@ -95,7 +95,9 @@ public:
         P->board = factory_->createMotherBoard();
         P->disk = factory_->createDisk();
     }
-
+~configurator(){
+        delete factory_;
+    }
 private:
     abstracktFactory *factory_;
 };
