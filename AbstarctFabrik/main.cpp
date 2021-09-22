@@ -67,7 +67,7 @@ public:
 
 };
 
-class workStayion : public abstracktFactory {
+class workStation : public abstracktFactory {
 public:
     motherBoard *createMotherBoard() override {
         return new ASUS;
@@ -106,5 +106,8 @@ int main() {
     conf->config(pc);
     cout << pc->disk->getDiskType() << endl;
     cout << pc->board->getMotherBoard() << endl;
+    delete pc;
+    delete conf;
     return 0;
+
 }
