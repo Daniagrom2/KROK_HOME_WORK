@@ -43,7 +43,7 @@ int main() {
     client client2("Victor");
     tg.add(&client1);
     tg.add(&client2);
-    tg.notify("Hello niga");
+    tg.notify("Hello man");
     tg.add(new client("Vasyliy"));
     tg.notify("Bomb in the house");
     tg.remove(&client1);
