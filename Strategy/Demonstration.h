@@ -25,7 +25,7 @@ public:
         Pet *dog = new Dog("Boby",3);
         PetOwner a("Steve");
         a.add_pet(dog);
-        a.get_vector()[0]->voice();
+        a.comand_voice(a.get_vector()[0]);
     }
 
 };
