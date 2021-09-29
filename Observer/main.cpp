@@ -8,16 +8,12 @@ public:
 class observable{
 public:
   virtual void add(observer*) = 0;
-  virtual void remove(observer*) = 0;
   virtual void notify(string)= 0;
 };
-class topicsGenerator:public observable{
+class Update: public observable{
 public:
-    void add(observer* ob) override{
+    void add(observer* ob) override {
         observers_.push_back(ob);
-    }
-    void remove(observer* ob) override{
-      cout<<"deleted"<<endl;
     }
     void notify(string m)override{
         for (auto ob:observers_) {
@@ -28,9 +24,9 @@ private:
     vector<observer*> observers_;
 };
 
-class client:public observer{
+class user: public observer{
 public:
-    client(string n):Name(n){}
+    user(string n): Name(n){}
     string Name;
     void update(string s) override{
         cout<<"Name: "<< Name <<"\t"<<s<<endl;
@@ -38,14 +34,14 @@ public:
 
 };
 int main() {
-  topicsGenerator tg;
-  client client1("Nikolay");
-    client client2("Victor");
-    tg.add(&client1);
-    tg.add(&client2);
-    tg.notify("Hello man");
-    tg.add(new client("Vasyliy"));
-    tg.notify("Bomb in the house");
-    tg.remove(&client1);
+  Update u;
+  user user1("Nikolay");
+    user user2("Victor");
+    u.add(&user1);
+    u.add(&user2);
+    u.notify("Git have new vesion");
+    u.add(new user("Vasyliy"));
+    u.notify("Clion have new version");
+
     return 0;
 }
