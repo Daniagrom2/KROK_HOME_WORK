@@ -22,7 +22,7 @@ PetOwner(){}
         return pets;
     }
 
-    vector<Pet *>::iterator &find(vector<Pet *> &ls, string name) {
+   vector<Pet*>::iterator &find(vector<Pet*> &ls, string name) {
         for (auto itr = ls.begin();
              itr != ls.end(); itr++) {
             return itr;
@@ -30,8 +30,15 @@ PetOwner(){}
     }
 
     void remove_pet(string name) {
-        auto remove_it = find(pets, name);
-        pets.erase(remove_it);
+    auto it = pets.begin();
+        for (int i = 0; i < pets.size(); i++) {
+            if(pets[i]->get_name() == name){
+                break;
+            }else{
+                it++;
+            }
+        }
+        pets.erase(it);
     }
 
     string get_name() {

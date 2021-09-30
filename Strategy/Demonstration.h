@@ -23,8 +23,14 @@ class Demonstration {
 public:
     static void show_PetOwner(){
         Pet *dog = new Dog("Boby",3);
+        Pet *dog2 = new Dog("Nik",3);
+        Pet *dog3 = new Dog("Lok",3);
         PetOwner a("Steve");
         a.add_pet(dog);
+        a.add_pet(dog2);
+        a.add_pet(dog3);
+        a.remove_pet("Nik");
+        a.show_all_pets();
         a.comand_voice(a.get_vector()[0]);
     }
 
